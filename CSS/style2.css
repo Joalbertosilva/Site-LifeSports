@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.containerRodape{
+    background-color: #bd9de4;
+    margin-top: 60px;
+}
+.logosImagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1370px;
+}
+
+.caminhao{
+    display: flex;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-left: 10px;
+}
+
+.texto .tituloRodape{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto .paragrafoRodape{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-right: 10px;
+}
+.texto2 .tituloRodape2{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto2 .paragrafoRodape2{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.cartao{
+    display: flex;
+    
+}
+.texto3{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-left: 10px;
+}
+.texto3 .tituloRodape3{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto3 .paragrafoRodape3{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+.lista1{
+    font-size: 14px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.listaAjuste ul {
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+}
+.tituloLista {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    color:#000000;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.listaAjuste ul li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+}
+
+.tituloLista2 {
+    display: flex;
+    font-size: 18px; 
+    margin-bottom: 25px; 
+    color:#000000;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+.imagensCentral{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartoes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tituloCartao{
+    margin-bottom: 20px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-size: 18px;
+}
+
+.mensagem{
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.paragrafoFooter{
+    color: #727171;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-size: 12px;
+    margin-bottom: 25px;
+}

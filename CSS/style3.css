@@ -1,0 +1,402 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div nav {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+nav a{
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 150px; /* O padding aqui está servindo como separação das listas, por isso foi adiionado ao "a"*/
+    padding-right: 150px;
+    display: inline-block;
+    transition: 1s;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1rem;
+    
+    
+}
+
+nav ul{
+    background-color:rgba(15, 5, 59, 0.7);
+    margin: 15px;
+    width: 1300px;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+nav ul li{
+    margin: 0 10px; 
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);   
+    
+    
+}
+
+header{
+    background-color: #061143;
+    height: 97.9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.promo{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    margin-left: 30px;
+}
+
+.promocao{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+.imagem1{
+    width: 300px;
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+
+.imagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+   
+}
+
+.image {
+    width: 200px;
+    margin-left: 18px; 
+    overflow: hidden;
+    display: inline-block;
+    transition: 1s;
+    
+}
+.image:hover{
+    transform: scale(1.1);
+}
+.tenis .tenisG{
+    width: 300px;
+    height: 300px;
+}
+
+.container{
+    display: flex;
+    margin-top: 108px;
+    margin-left: 150px;
+}
+.imagemBolsa{
+    display: flex;
+}
+.imagemBolsa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.intro{
+    display: inline-block;
+    overflow: hidden;
+    transition: 1s;
+    margin-right: 150px; 
+}
+.intro:hover{
+    transform: scale(1.1);
+}
+div h1{
+    display: flex;
+}
+.tituloBolsa{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.paragrafo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.tenis{
+    display: flex;
+    justify-content: space-between;
+    width: 1400px;
+    height: 500px;
+}
+.adidas1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.oakley1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.nike1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 45px;
+    margin-right: 20px;
+}
+.tenis .paragrafo{
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;   
+}
+.tenis .desconto{
+    color: #f0f8ff;
+    background-color: rgb(106, 197, 106);
+    display: flex;
+    justify-content: center;
+   
+}
+.tenis .adidas1{
+    margin-left: 100px;
+}
+.star-contanier{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.star {
+    font-size: 24px;
+    color: gold; 
+    clip-path: inset(0 0 0 0);
+}
+
+.half-star {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 5px;
+    clip-path: inset(0 50% 0 0); /* Oculta a metade direita da estrela */
+}
+
+.tenis .corte{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #555557;
+    text-decoration: line-through 0.1px solid #919191;
+}
+
+.tenis .preco{
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #3a3a3a;
+}
+
+.fim{
+    margin-top: 20px;
+    margin-top: 55px;
+    width: 0 auto;
+    height: 100px;
+}
+
+.finalContato{
+    margin-left: 40px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.paragrafoFinal{
+    margin-left: 40px;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.fim2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    padding-left: 350px;
+    padding-right: 350px;
+    width: auto;
+    height: 200px;
+}
+
+.containerRodape{
+    background-color: #bd9de4;
+    margin-top: 60px;
+}
+.logosImagens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1370px;
+}
+
+.caminhao{
+    display: flex;
+    justify-content: center;
+    padding-left: 170px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-left: 10px;
+}
+
+.texto .tituloRodape{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto .paragrafoRodape{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.texto2{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-right: 10px;
+}
+.texto2 .tituloRodape2{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto2 .paragrafoRodape2{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.cartao{
+    display: flex;
+    
+}
+.texto3{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-top: 57px;
+    padding-left: 10px;
+}
+.texto3 .tituloRodape3{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+
+}
+.texto3 .paragrafoRodape3{
+    color: #fff;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 250px;
+    margin-right: 150px;
+}
+.lista1{
+    font-size: 14px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.listaAjuste ul {
+    margin-top: 50px;
+    display: flex;
+    list-style-type: none; 
+    padding: 0; 
+}
+.tituloLista {
+    font-size: 18px; 
+    margin-bottom: 10px; 
+    color:#000000;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+
+.listaAjuste ul li {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px; 
+}
+
+.tituloLista2 {
+    display: flex;
+    font-size: 18px; 
+    margin-bottom: 25px; 
+    color:#000000;
+    font-family: 'Regan HeavyItalic', sans-serif;
+}
+.imagensCentral{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cartoes{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.tituloCartao{
+    margin-bottom: 20px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-size: 18px;
+}
+
+.mensagem{
+    margin-top: 30px;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.paragrafoFooter{
+    color: #727171;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-size: 12px;
+    margin-bottom: 25px;
+}
