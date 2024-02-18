@@ -4,6 +4,189 @@
     box-sizing: border-box;
 }
 
+
+.cabecalho{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #061143;
+    justify-content: center;
+}
+div nav {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+nav a{
+    color: #fff;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-left: 150px; /* O padding aqui está servindo como separação das listas, por isso foi adiionado ao "a"*/
+    padding-right: 150px;
+    display: inline-block;
+    transition: 1s;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1rem;
+    
+    
+}
+
+nav ul{
+    background-color:rgba(15, 5, 59, 0.7);
+    margin: 15px;
+    width: 1300px;
+    height: 50px;
+    display: flex;
+    list-style: none;
+    margin-left: 100px;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+}
+nav ul li{
+    margin: 0 10px; 
+}
+nav a:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1.1);   
+    
+    
+}
+
+.entrada{
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.products{
+    display: flex;
+}
+
+.titulo{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 50px;
+    color: #21073c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-style: italic;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.linhaNike{
+    display: flex;
+    margin-top:50px;
+    margin-left: 20px;
+}
+
+.inicioNike{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloNike{
+    color: #ffffff;
+    background-color: #21073c;
+    border-radius: 20px;
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.logoNike{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+}
+.nike{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 130px;
+}
+.tenis1{
+    display: flex;
+    flex-direction: column;
+}
+
+.desconto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    color: #fff;
+    background-color:  rgb(106, 197, 106);
+}
+
+.star-contanier{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+}
+
+.star {
+    font-size: 24px;
+    color: gold; 
+    clip-path: inset(0 0 0 0);
+}
+
+.half-star {
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    margin-left: 5px;
+    clip-path: inset(0 50% 0 0); /* Oculta a metade direita da estrela */
+}
+
+.corte{
+    color: #bd9de4;
+    text-decoration: line-through 0.5px;
+}
+
+.preco{
+    color: #383838;
+}
+
+.paragrafo{
+    display: flex;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .containerRodape{
     background-color: #bd9de4;
     margin-top: 60px;
