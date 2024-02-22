@@ -11,7 +11,7 @@
     background-color: #061143;
     justify-content: center;
 }
-div nav {
+header nav {
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -209,15 +209,16 @@ nav a:hover{
     color: #ffffff;
     display: flex;
     margin-left: 15px;
-    text-align: justify;
+    justify-content: center;
     font-family: 'Regan Black', sans-serif;
     font-weight: 700;
     font-size: 35px;
     background-color: #21073c;
-    width: 570px;
+    width: 580px;
     height: 55px;
     padding-top: 10px;
     margin-bottom: 100px;
+    border-radius: 20px;
 }
 .final2 .logo{
     display: flex;
@@ -227,7 +228,7 @@ nav a:hover{
     font-size: 2rem;
     color: #ffffff;
     text-transform: uppercase;
-    padding-right: 20px;
+    padding-right: 15px;
 }
 
 .containerRodape{

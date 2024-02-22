@@ -32,7 +32,6 @@ nav a{
     font-weight: 700;
     font-size: 1rem;
     
-    
 }
 
 nav ul{
@@ -52,8 +51,6 @@ nav ul li{
 nav a:hover{
     background-color: rgba(0, 0, 0, 0.1);
     transform: scale(1.1);   
-    
-    
 }
 
 .entrada{
@@ -87,18 +84,35 @@ nav a:hover{
     text-transform: uppercase;
 }
 
-.linhaNike{
+.promotion{
     display: flex;
-    margin-top:50px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #21073c;
+    width: 380px;
+    height: 50px;
+    margin-top: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.linha{
+    display: flex;
+    margin-top:70px;
     margin-left: 20px;
 }
 
-.inicioNike{
+.inicio{
     display: flex;
     justify-content: space-between;
 }
 
-.tituloNike{
+.tituloMarcas{
     color: #ffffff;
     background-color: #21073c;
     border-radius: 20px;
@@ -112,12 +126,12 @@ nav a:hover{
     font-size: 2rem;
     text-transform: uppercase;
 }
-.logoNike{
+.logo{
     display: flex;
     justify-content: center;
     margin-left: 15px;
 }
-.nike{
+.marca{
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
@@ -164,7 +178,7 @@ nav a:hover{
 }
 
 .preco{
-    color: #383838;
+    color: #5f5f5f;
 }
 
 .paragrafo{
@@ -173,8 +187,28 @@ nav a:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.Roupas{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: 130px;
+}
 
-
+.tituloMarcasAdidas{
+    color: #ffffff;
+    background-color: #21073c;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-family: 'Regan HeavyItalic', sans-serif;
+    font-weight: 900; /*Font-Height aumenta a largura da letra */
+    font-size: 2rem;
+    text-transform: uppercase;
+}
 
 
 
